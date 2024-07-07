@@ -10,9 +10,9 @@ id message
 
 000 registration user
 001 get public keys
+011 public keys received
 002 swap partial keys
 003 message
-004 choose user
 005 leave user
 '''
 on_encrypt = False

@@ -1,8 +1,10 @@
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 from encryption import create_public_keys
+
 clients = []
 friend = {}
+
 HOST = '0.0.0.0'
 PORT = 33000
 BUFSIZE = 1024

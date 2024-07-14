@@ -1,4 +1,4 @@
-from random import randint
+from random import choice, randint
 
 prime_numbers = [983, 991, 997, 1009, 1013, 1019, 1021, 1031, 1033, 1039, 1049, 1051, 1061,	1063, 1069, 1087, 1091, 1093, 1097, 1103, 1109, 1117, 1123, 1129, 1151, 1153, \
                 1163, 1171,	1181, 1187, 1193, 1201, 1213, 1217, 1223, 1229, 1231, 1237,	1249, 1259,	1277, 1279,	1283, 1289, 1291, 1297, 1301, \
@@ -38,4 +38,4 @@ class Encryption:
     
 
 def create_public_keys():
-    return prime_numbers[randint(0, len(prime_numbers) - 1)], prime_numbers[randint(0, len(prime_numbers) - 1)]
+    return choice(prime_numbers), choice(prime_numbers)

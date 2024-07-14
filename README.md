@@ -1,7 +1,7 @@
 # Messenger with Diffie-Hellman encryption
 -- -
-###Launch messenger:
+## Launch messenger:
 - python3 server.py
 
-###Start message:
+## Start message:
 - python3 client.py
